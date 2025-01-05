@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/339/353/small_2x/minimalistic-fluid-blurred-gradient-background-trendy-neon-backdrop-for-poster-brochure-banner-landing-page-and-night-club-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  background-color: #ffffff53;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000000;
+}
+form h2 .fa-user {
+  color: #ffffff;
+  font-size: 35px;
+  padding: 20px 22px;
+  background-color: #ffffff50;
+  border-radius: 50%;
+}
+form .input {
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+}
+form .input input {
+  width: 100%;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000000;
+}
+form .input input:focus {
+  background-color: rgba(255, 255, 255, 0.427);
+}
+form .input input::placeholder {
+  color: #ffffff6f;
+  font-family: "Poppins";
+}
+.form .forget {
+  color: #fff;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.form .register {
+  color: #0222dd;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.form .log {
+  margin-top: 6px;
+}
+.form .login {
+  background-color: hsl(261deg 80% 48%);
+  border-radius: 3px;
+  padding: 5px 110px;
+  color: #fff;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.form .login:hover {
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  transition: all 0.4s;
+}
+.form .login:active {
+  box-shadow: none;
+}
+.morelogin {
+  margin-top: 6px;
+}
+.morelogin p {
+  font-family: "Poppins";
+  color: #fff;
+}
+.morelogin .media-icons .fa-google {
+  font-size: 20px;
+  background-color: rgb(160, 38, 167);
+  padding: 6px 6px;
+  border-radius: 50%;
+  color: #fff;
+}
+.morelogin .media-icons {
+  color: #fff;
+  font-family: "Poppins";
+}
+.morelogin .media-icons .fa-facebook {
+  font-size: 20px;
+  background-color: rgb(38, 81, 167);
+  padding: 6px 6px;
+  border-radius: 50%;
+  color: #fff;
+}
+.morelogin .media-icons .fa-google:hover {
+  box-shadow: 4px 5px 12px rgb(160, 38, 167);
+  transition: all 0.4s;
+}
+.morelogin .media-icons .fa-facebook:hover {
+  box-shadow: 4px 5px 12px rgb(38, 81, 167);
+}
+@media (max-width: 300px) {
+  form {
+    width: 270px;
+  }
+  .form .login {
+    padding: 5px 80px;
+  }
+}
